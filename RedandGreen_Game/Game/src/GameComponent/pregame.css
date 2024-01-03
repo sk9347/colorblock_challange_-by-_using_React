@@ -1,0 +1,14 @@
+
+#div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body{
+  background-image: url('https://img.freepik.com/free-vector/colorful-neon-frame-design_23-2149092625.jpg?size=626&ext=jpg&ga=GA1.1.458947251.1702189376&semt=ais');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#img{
+ margin-left: 10%;
+}
