@@ -1,106 +1,55 @@
-/* Game.css
-
-.cont {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 60vh;
- }
- 
- .main {
-   width: 100px;
-   height: 100px;
-   border-radius: 10px;
-   cursor: pointer;
-   transition: background-color 0.3s ease-in-out;
- }
- 
- .main:hover {
-   filter: brightness(1.2);
- }
- 
- .container {
-   text-align: center;
-   margin-top: 20px;
- }
- 
- .win-message {
-   color: #4caf50;
-   font-size: 24px;
-   font-weight: bold;
- }
- 
- button {
-   padding: 10px 20px;
-   font-size: 16px;
-   background-color: #2196f3;
-   color: white;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
-   transition: background-color 0.3s ease-in-out;
- }
- 
- button:hover {
-   background-color: #0b7dda;
- }
-  */
-  /* Game.css */
-.body{
-   background-color: #282c34;
-   height: 100vh;
+.body {
+  background-color: #282c34;
+  height: 100vh;
 }
 
 .cont {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 60vh;
-   background-color: #282c34;
- }
- 
- .main {
-   width: 300px;
-   height: 300px;
-   border-radius: 10px;
-   cursor: pointer;
-   transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
- }
- 
- .main:hover {
-   background-color: #61dafb;
-   transform: scale(1.1);
- }
- 
- .container {
-   text-align: center;
-   margin-top: 20px;
-   color:#fff;
- 
- }
- 
- .win-message {
-   color: #4caf50;
-   font-size: 24px;
-   font-weight: bold;
-   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-   
- }
- 
- button {
-   padding: 10px 20px;
-   font-size: 16px;
-   background-color: #2196f3;
-   color: white;
-   border: none;
-   border-radius: 10px;
-   cursor: pointer;
-   transition: background-color 0.3s ease-in-out;
- }
- 
- button:hover {
-   background-color: #0b7dda;
-   transform: translateY(-2px);
-   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
- }
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #282c34;
+}
+
+.main {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.main:hover {
+  background-color: #61dafb;
+  transform: scale(1.1);
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.win-message {
+  color: #4caf50;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0b7dda;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

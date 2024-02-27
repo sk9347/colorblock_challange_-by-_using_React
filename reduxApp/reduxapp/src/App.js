@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <ProductDetails></ProductDetails>
+    {/* <ProductDetails></ProductDetails> */}
     <Tickets></Tickets>
     </>
   );

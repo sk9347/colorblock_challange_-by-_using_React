@@ -8,7 +8,7 @@ const Tickets=()=>{
     console.log(reduxstate)
     
 
-    const ticketdispatch=useDispatch()//to inporting actions
+    const ticketdispatch=useDispatch()//to importing actions
   
 
     const buyhandler=()=>{

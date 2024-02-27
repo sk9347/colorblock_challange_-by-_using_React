@@ -11,4 +11,12 @@ body{
 }
 #img{
  margin-left: 10%;
+ filter: drop-shadow(10px 10px 10px white);
+
+}
+@media screen and (min-device-width:480px){
+  #img{
+    width:25%;
+  
+  }
 }

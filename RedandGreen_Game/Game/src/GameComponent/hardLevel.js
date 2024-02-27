@@ -39,7 +39,7 @@ const RedAndGreenhard=()=>{
   const handleBoxClick = () => {
     if (boxColor === 'green') {
       setPoints((prevPoints) => prevPoints + 1);
-      if(points===9){
+      if(points===25){
          setShow(true)
           setmassage("you win")
       }
@@ -112,7 +112,7 @@ const RedAndGreenhard=()=>{
     </div>
     <div className='container'>
     {seconds === 40 && <div className="time-message">Timeout!</div>}
-      {points === 10 && <div className="win-message">You Win!</div>}
+      {points === 25 && <div className="win-message">You Win!</div>}
       
       <p>Points: {points}</p>
       <p>Time: {seconds} seconds</p>
